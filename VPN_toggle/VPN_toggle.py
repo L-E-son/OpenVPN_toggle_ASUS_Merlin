@@ -11,8 +11,8 @@ browser.get(VPNpage)
 userLogin = browser.find_element_by_name('login_username')
 passLogin = browser.find_element_by_name('login_passwd')
 
-userLogin.send_keys('myUsername')
-passLogin.send_keys('myPassword')
+userLogin.send_keys('myUsername') #your router firmware username
+passLogin.send_keys('myPassword') #your router firmware password
 browser.execute_script('login();')
 
 browser.find_element_by_class_name('iphone_switch').click()

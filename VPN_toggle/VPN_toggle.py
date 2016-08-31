@@ -1,3 +1,5 @@
+#John Ellison, May 2016
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
